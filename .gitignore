@@ -1,3 +1,11 @@
+# Bat files
+forcepull.bat
+
+
+###################################################
+########## Pre-made
+###################################################
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
