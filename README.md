@@ -6,4 +6,4 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Intro to RSA:** RSA stands for [*Rivest-Shamir-Adleman*](https://en.wikipedia.org/wiki/RSA_(cryptosystem)). Is a widely used public-key cryptosystem "based on the practical difficulty of factoring the product of two large prime numbers" ([RSA cryptosystem](https://en.wikipedia.org/wiki/RSA_(cryptosystem)))
 
-* ** Intro to Hashing:** A [*hash function*](https://en.wikipedia.org/wiki/Hash_function) maps data of arbitrary size to data of fixed size. An [ideal hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function) maps randomly, avoid colissions and is impossible to invert.
+* **Intro to Hashing:** A [*hash function*](https://en.wikipedia.org/wiki/Hash_function) maps data of arbitrary size to data of fixed size. An [ideal hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function) maps randomly, avoid colissions and is impossible to invert.
