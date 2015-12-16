@@ -6,7 +6,7 @@ from random import choice, randint
 # https://id0-rsa.pub/problem/21/
 
 # Resources
-#
+# http://www.rhyous.com/2011/10/27/the-step-by-step-rsa-algorithm/
 
 # The basic idea behind public key cryptography is that there are two
 # keys, a public key and a private key. The public key is used for
