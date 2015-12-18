@@ -12,8 +12,14 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 ### Scripts
 
-* **Hello PGP:** Use PGP programatically. Recover the message encrypted with a single English word.
+* **Hello PGP** Use PGP programatically. Recover the message encrypted with a single English word.
 
-* **Hello Bitcoin:**
+* **Hello Bitcoin** *INCOMPLETE*
 
-* **Hello OpenSSL:**
+* **Hello OpenSSL** *INCOMPLETE*
+
+* **Intro to Hashing** Hashing basics.
+
+* **Intro to PGP** PGP basics.
+
+* **Intro to RSA** RSA basics*
