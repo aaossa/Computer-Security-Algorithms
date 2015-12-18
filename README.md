@@ -22,4 +22,4 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Intro to PGP** PGP basics.
 
-* **Intro to RSA** RSA basics*
+* **Intro to RSA** RSA basics
