@@ -14,7 +14,7 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Hello PGP** Use PGP programatically. Recover the message encrypted with a single English word.
 
-* **Hello Bitcoin** *INCOMPLETE*
+* **Hello Bitcoin** Given a bitcoin secret key, what would its (uncompressed) address be?
 
 * **Hello OpenSSL** *INCOMPLETE*
 
