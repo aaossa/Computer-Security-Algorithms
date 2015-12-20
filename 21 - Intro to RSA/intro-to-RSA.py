@@ -33,14 +33,14 @@ class RSA:
     @staticmethod
     def Encryption(m, public_key):
         e, N = public_key
-        c = (m ** e) % N
+        c = pow(m, e, N)
         return c
 
     @staticmethod
     def Decryption(c, public_key, private_key):
         e, N = public_key
         d = private_key
-        m = (c ** d) % N
+        m = pow(c, d, N)
         return m
 
     def __pickup_random_prime():
