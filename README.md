@@ -16,7 +16,7 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Hello Bitcoin** Given a bitcoin secret key, what would its (uncompressed) address be?
 
-* **Hello OpenSSL** *INCOMPLETE*
+* **Hello OpenSSL** Recover a secret number encrypted with a given RSA private key.
 
 * **Intro to Hashing** Hashing basics.
 
