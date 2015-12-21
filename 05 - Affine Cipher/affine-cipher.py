@@ -83,7 +83,7 @@ if __name__ == '__main__':
 
     plaintext = ''
     for letter in ciphertext:
-        plaintext += ALPHABET[Aff_cip.encrypt(alphabet[letter])]
+        plaintext = plaintext + ALPHABET[Aff_cip.decrypt(alphabet[letter])]
 
     print(plaintext)
     print()
