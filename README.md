@@ -18,6 +18,8 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Hello OpenSSL** Recover a secret number encrypted with a given RSA private key.
 
+* **Ps and Qs** RSA keys generated with one critical weakness
+
 * **Intro to Hashing** Hashing basics.
 
 * **Intro to PGP** PGP basics.
