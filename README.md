@@ -18,6 +18,8 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Hello OpenSSL** Can you read and use an OpenSSL RSA key?
 
+* **Affine Cipher** Can you brute force this classical cipher?
+
 * **Ps and Qs** RSA keys generated with one critical weakness
 
 * **Intro to Hashing** Hashing is a vital concept in cryptography
