@@ -18,7 +18,7 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Hello OpenSSL** Can you read and use an OpenSSL RSA key?
 
-* **Affine Cipher** Can you brute force this classical cipher?
+* **Affine Cipher** Can you brute force this classical cipher? *INCOMPLETE*
 
 * **Ps and Qs** RSA keys generated with one critical weakness
 
