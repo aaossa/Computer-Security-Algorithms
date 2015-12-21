@@ -14,14 +14,14 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Hello PGP** Use PGP programatically. Recover the message encrypted with a single English word.
 
-* **Hello Bitcoin** Given a bitcoin secret key, what would its (uncompressed) address be?
+* **Hello Bitcoin** Do you know how bitcoin addresses are constructed?
 
-* **Hello OpenSSL** Recover a secret number encrypted with a given RSA private key.
+* **Hello OpenSSL** Can you read and use an OpenSSL RSA key?
 
 * **Ps and Qs** RSA keys generated with one critical weakness
 
-* **Intro to Hashing** Hashing basics.
+* **Intro to Hashing** Hashing is a vital concept in cryptography
 
-* **Intro to PGP** PGP basics.
+* **Intro to PGP** Can you use PGP programatically?
 
-* **Intro to RSA** RSA basics
+* **Intro to RSA** Learn the basics of a common public key cryptosystem
