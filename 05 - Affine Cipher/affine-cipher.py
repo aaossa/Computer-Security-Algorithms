@@ -10,35 +10,8 @@ ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ,."
 CIPHERTEXT_FILE = "ciphertext"
 
 
-def generate_alphabet():
-    alpha = {}
-    for i in range(len(ALPHABET)):
-        alpha[ALPHABET[i]] = i
-    return alpha
-
-
 def string_to_md5(string):
     return md5(string.encode('utf-8')).hexdigest()
-
-
-def is_prime(n):
-    if n == 2 or n == 3:
-        return True
-    if n < 2 or n % 2 == 0:
-        return False
-    if n < 9:
-        return True
-    if n % 3 == 0:
-        return False
-    r = int(n**0.5)
-    f = 5
-    while f <= r:
-        if n % f == 0:
-            return False
-        if n % (f + 2) == 0:
-            return False
-        f += 6
-    return True
 
 
 class AffineCipher():
@@ -46,7 +19,7 @@ class AffineCipher():
     def __init__(self, a, b, alphabet):
         self.a = a
         self.b = b
-        self.alphabet = alphabet
+        self.alphabet = self.__generate_alphabet(alphabet)
         self.m = len(alphabet)
 
     def encrypt(self, x):
@@ -54,6 +27,10 @@ class AffineCipher():
 
     def decrypt(self, x):
         a_1 = self.__modinv(self.a, self.m)
+        if type(x) == int:
+            pass
+        elif type(x) == str:
+            x = self.alphabet[x]
         return a_1 * (x - self.b) % self.m
 
     def __egcd(self, a, b):
@@ -70,8 +47,13 @@ class AffineCipher():
         else:
             return x % m
 
+    def __generate_alphabet(self, alphabet):
+        alpha = {}
+        for i in range(len(alphabet)):
+            alpha[ALPHABET[i]] = i
+        return alpha
+
 if __name__ == '__main__':
-    alphabet = generate_alphabet()
 
     with open(CIPHERTEXT_FILE, 'r') as f:
         ciphertext = f.readline()
@@ -79,11 +61,11 @@ if __name__ == '__main__':
     a = 2
     b = 3
 
-    Aff_cip = AffineCipher(a, b, alphabet)
+    Aff_cip = AffineCipher(a, b, ALPHABET)
 
     plaintext = ''
     for letter in ciphertext:
-        plaintext = plaintext + ALPHABET[Aff_cip.decrypt(alphabet[letter])]
+        plaintext = plaintext + ALPHABET[Aff_cip.decrypt(letter)]
 
     print(plaintext)
     print()
