@@ -53,15 +53,64 @@ class AffineCipher():
             alpha[ALPHABET[i]] = i
         return alpha
 
+
+def valid_word(word):
+    commas = word.count(',')
+    dots = word.count('.')
+    if commas > 1:
+        return False
+    if commas == 1 and word[-1] != ',':
+        return False
+    if dots > 1:
+        return False
+    if dots == 1 and word[-1] != '.':
+        return False
+    if len(word) <= 1:
+        return False
+    return True
+
+
 if __name__ == '__main__':
 
     with open(CIPHERTEXT_FILE, 'r') as f:
         ciphertext = f.readline()
 
-    a = 2
-    b = 3
+    maxcount = 0
+    maxtuple = tuple()
 
-    Aff_cip = AffineCipher(a, b, ALPHABET)
+    dictionary = {}
+
+    for word in open('words.txt'):
+        word = word.lower()
+        if word[0] not in dictionary:
+            dictionary[word[0]] = []
+        dictionary[word[0]].append(word)
+
+    for a in range(1, len(ALPHABET)):
+        for b in range(0, len(ALPHABET)):
+
+            Aff_cip = AffineCipher(a, b, ALPHABET)
+
+            plaintext = ''
+            for letter in ciphertext:
+                plaintext = plaintext + ALPHABET[Aff_cip.decrypt(letter)]
+
+            plaintext_words = plaintext.lower().split(' ')
+            count = 0
+
+            for plaintext_word in plaintext_words:
+                if valid_word(plaintext_word):
+                    for word in dictionary[plaintext_word[0]]:
+                        word = word.replace('\n', '')
+                        if plaintext_word == word:
+                            count += 1
+                        if word > plaintext_word:
+                            break
+            if count > maxcount:
+                maxcount = count
+                maxtuple = (a, b)
+
+    Aff_cip = AffineCipher(maxtuple[0], maxtuple[1], ALPHABET)
 
     plaintext = ''
     for letter in ciphertext:
@@ -69,4 +118,4 @@ if __name__ == '__main__':
 
     print(plaintext)
     print()
-    print(string_to_md5(plaintext))
+    print('MD5 hash: {}'.format(string_to_md5(plaintext)))
