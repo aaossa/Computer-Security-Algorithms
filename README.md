@@ -22,6 +22,8 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Ps and Qs** RSA keys generated with one critical weakness
 
+* **Factoring RSA With CRT Optimization** Recover a RSA private key when an optimization goes wrong
+
 * **Intro to Hashing** Hashing is a vital concept in cryptography
 
 * **Intro to PGP** Can you use PGP programatically?
