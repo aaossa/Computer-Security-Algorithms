@@ -4,6 +4,8 @@
 # Resources
 # https://id0-rsa.pub/forum/problem/10/
 # http://wstein.org/edu/2007/spring/ent/ent-html/node89.html
+# http://crypto.stackexchange.com/questions/3907/how-does-one-calculate-the-scalar-multiplication-on-elliptic-curves
+# https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/
 
 
 class Elliptic_Curve():
@@ -39,7 +41,6 @@ if __name__ == '__main__':
     # arithmetic, namely multiplying a base point G by the scalar d, which
     # yields the point Q. Finding d given Q and G reduces to the discrete log
     # problem. Luckily, in this problem d was chosen to be a small value.
-    
 
     # Given the elliptic curve parameters (NIST curve P-256) and public key
     # find the value of the private key
