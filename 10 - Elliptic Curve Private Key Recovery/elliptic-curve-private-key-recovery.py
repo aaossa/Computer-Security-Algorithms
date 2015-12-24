@@ -6,6 +6,7 @@
 # http://wstein.org/edu/2007/spring/ent/ent-html/node89.html
 # http://crypto.stackexchange.com/questions/3907/how-does-one-calculate-the-scalar-multiplication-on-elliptic-curves
 # https://blog.cloudflare.com/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/
+# http://stackoverflow.com/questions/31074172/
 
 
 class Elliptic_Curve():
@@ -44,4 +45,4 @@ if __name__ == '__main__':
 
     # Given the elliptic curve parameters (NIST curve P-256) and public key
     # find the value of the private key
-    pass
+  
