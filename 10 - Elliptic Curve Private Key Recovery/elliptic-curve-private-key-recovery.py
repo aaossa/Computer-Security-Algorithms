@@ -3,6 +3,7 @@
 
 # Resources
 # https://id0-rsa.pub/forum/problem/10/
+# http://wstein.org/edu/2007/spring/ent/ent-html/node89.html
 
 
 class Elliptic_Curve():
