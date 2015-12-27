@@ -20,6 +20,8 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Affine Cipher** Can you brute force this classical cipher?
 
+* **Double Strength Affine** A slight security upgrade, is it enought?
+
 * **Ps and Qs** RSA keys generated with one critical weakness
 
 * **Elliptic Curve Private Key Recovery** Given the public parameters of an elliptic curve, recover the poorly chosen private key *INCOMPLETE*
