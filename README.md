@@ -18,6 +18,8 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Hello OpenSSL** Can you read and use an OpenSSL RSA key?
 
+* **AES-CTR with Nonce Reuse** Can you exploit a reused nonce?
+
 * **Affine Cipher** Can you brute force this classical cipher?
 
 * **Double Strength Affine** A slight security upgrade, is it enought?
