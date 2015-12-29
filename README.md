@@ -30,6 +30,8 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Factoring RSA With CRT Optimization** Recover a RSA private key when an optimization goes wrong
 
+* **Rainbow Table Hash Chain** Can you use a rainbow table to recover a password?
+
 * **Intro to Hashing** Hashing is a vital concept in cryptography
 
 * **Intro to PGP** Can you use PGP programatically?
