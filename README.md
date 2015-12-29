@@ -26,7 +26,9 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Ps and Qs** RSA keys generated with one critical weakness
 
-* **Elliptic Curve Private Key Recovery** Given the public parameters of an elliptic curve, recover the poorly chosen private key *INCOMPLETE*
+* **Elliptic Curve Private Key Recovery** Given the public parameters of an elliptic curve, recover the poorly chosen private key
+
+* **Monoalphabetic Cipher** Monoalphabetic ciphers leak information. Can you recover it?
 
 * **Factoring RSA With CRT Optimization** Recover a RSA private key when an optimization goes wrong
 
