@@ -34,6 +34,8 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Rainbow Table Hash Chain** Can you use a rainbow table to recover a password?
 
+* **ECDSA Nonce Recovery** Nonce reuse leading to private key recovery, this time with elliptic curves
+
 * **Intro to Hashing** Hashing is a vital concept in cryptography
 
 * **Intro to PGP** Can you use PGP programatically?
