@@ -45,3 +45,5 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 * **CCA on Textbook RSA** Turns out padding is important
 
 * **Fast Hashing Passwords** Cryptographic hash functions shouldn't be used to hash passwords directly
+
+* **Salt Alone Won't Save You** Salting password hashes is important, but not enough on it's own
