@@ -26,6 +26,8 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Ps and Qs** RSA keys generated with one critical weakness
 
+* **Insufficient Key Size** Are you running on all 8 cores? This small key is factorable on a PC with an efficient implementation
+
 * **Elliptic Curve Private Key Recovery** Given the public parameters of an elliptic curve, recover the poorly chosen private key
 
 * **Monoalphabetic Cipher** Monoalphabetic ciphers leak information. Can you recover it?
