@@ -49,3 +49,5 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 * **Fast Hashing Passwords** Cryptographic hash functions shouldn't be used to hash passwords directly
 
 * **Salt Alone Won't Save You** Salting password hashes is important, but not enough on it's own
+
+* **Cut and Paste Attack On AES-ECB** Create a valid ciphertext without knowledge of the key using some copypaste
