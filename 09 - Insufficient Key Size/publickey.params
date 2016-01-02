@@ -1,0 +1,7 @@
+Public-Key: (119 bit)
+Modulus:
+    70:18:f7:17:fc:66:65:15:0c:14:88:54:f6:4c:49
+Exponent: 65537 (0x10001)
+-----BEGIN PUBLIC KEY-----
+MCowDQYJKoZIhvcNAQEBBQADGQAwFgIPcBj3F/xmZRUMFIhU9kxJAgMBAAE=
+-----END PUBLIC KEY-----
