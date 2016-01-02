@@ -43,3 +43,5 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 * **Intro to RSA** Learn the basics of a common public key cryptosystem
 
 * **CCA on Textbook RSA** Turns out padding is important
+
+* **Fast Hashing Passwords** Cryptographic hash functions shouldn't be used to hash passwords directly
