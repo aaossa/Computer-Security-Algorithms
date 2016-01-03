@@ -30,6 +30,8 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Elliptic Curve Private Key Recovery** Given the public parameters of an elliptic curve, recover the poorly chosen private key
 
+* **Håstad's Broadcast Attack** RSA with a small exponent is fast to compute but it has a serious weakness
+
 * **Monoalphabetic Cipher** Monoalphabetic ciphers leak information. Can you recover it?
 
 * **Factoring RSA With CRT Optimization** Recover a RSA private key when an optimization goes wrong
