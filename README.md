@@ -55,3 +55,5 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 * **Salt Alone Won't Save You** Salting password hashes is important, but not enough on it's own
 
 * **Cut and Paste Attack On AES-ECB** Create a valid ciphertext without knowledge of the key using some copypaste
+
+* **Insecure PRNG** Using a PRNG that isn't proven to be cryptographically secure is a recipe for disaster
