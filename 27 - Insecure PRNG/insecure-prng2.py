@@ -80,7 +80,7 @@ if __name__ == '__main__':
     key = ""
     for _ in range(256):
         N = f()
-        key += str(N // 2**29 & 1)
+        key += str(N >> 29 & 1)
 
     test_key = "3a71c3dc3b5dad959973a074cff234bf09735ed305dfc6247357142a962bd3fa"
     assert("%x" % int(key, 2) == test_key)
@@ -88,41 +88,22 @@ if __name__ == '__main__':
     assert(key_to_wif(test_key) == test_wif)
     assert(wif_to_key(key_to_wif(key)) == key)
 
+    # print(int(test_key[-2], 16))
+    # print(int(key[-8:-4], 2))
+    # print(int(test_key, 16) == int(key, 2))
+    # print(bin(int(test_key, 16))[2:] == key.lstrip('0'))
+
     wif = "5KQFVHAxyMMVsDz75bDp7S4NpwoQz2FgR8b7DjyEhUo6saJfS73"
     key = wif_to_key(wif)
     key_bits = bin(int(key, 16))[2:].rjust(256, '0')
-
-    seed = 788737200
-    f = bsd_rand(seed)
-    found_key = ""
-    for _ in range(256):
-        N = f()
-        found_key += str(N // 2**29 & 1)
-    assert(found_key == key_bits)
-
-    new_key = ""
-    for _ in range(256):
-        N = f()
-        new_key += str(N // 2**29 & 1)
-
-    new_key = "%x" % int(new_key, 2)
-    new_wif = key_to_wif(new_key)
-    print("Solution: {}".format(new_wif))
-
-    # There must be a way to do this without brute force
-    # But I used brute force:
-    #
-    # wif = "5KQFVHAxyMMVsDz75bDp7S4NpwoQz2FgR8b7DjyEhUo6saJfS73"
-    # key = wif_to_key(wif)
-    # key_bits = bin(int(key, 16))[2:].rjust(256, '0')
-    # for current_seed in range(457 * 1000 * 1000, m):
-    #     def try_seed():
-    #         f = bsd_rand(current_seed)
-    #         for current_bit in key_bits:
-    #             N = f()
-    #             if str(N >> 29 & 1) != current_bit:
-    #                 return
-    #         print("SEED: {}".format(current_seed))
-    #     try_seed()
-    #     if not current_seed % (100 * 1000):
-    #         print(current_seed)
+    for current_seed in range(457 * 1000 * 1000, m):
+        def try_seed():
+            f = bsd_rand(current_seed)
+            for current_bit in key_bits:
+                N = f()
+                if str(N >> 29 & 1) != current_bit:
+                    return
+            print("SEED: {}".format(current_seed))
+        try_seed()
+        if not current_seed % (100 * 1000):
+            print(current_seed)
