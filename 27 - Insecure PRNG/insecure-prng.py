@@ -97,7 +97,7 @@ if __name__ == '__main__':
     found_key = ""
     for _ in range(256):
         N = f()
-        found_key += str(N // 2**29 & 1)
+        found_key += str(N // 2**29 & 1) # (a >> b) === (a // 2**b)
     assert(found_key == key_bits)
 
     new_key = ""
