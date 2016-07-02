@@ -58,4 +58,6 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Insecure PRNG** Using a PRNG that isn't proven to be cryptographically secure is a recipe for disaster
 
+* **Bad Entropy** It's easy to generate bad symmetric keys
+
 * **Caesar** Should probably stick to the salad
