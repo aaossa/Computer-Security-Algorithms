@@ -57,3 +57,5 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 * **Cut and Paste Attack On AES-ECB** Create a valid ciphertext without knowledge of the key using some copypaste
 
 * **Insecure PRNG** Using a PRNG that isn't proven to be cryptographically secure is a recipe for disaster
+
+* **Caesar** Should probably stick to the salad
