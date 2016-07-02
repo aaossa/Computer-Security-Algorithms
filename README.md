@@ -2,15 +2,37 @@
 
 Problems related to computer security. Algorithms written in Python. [Follow the Tutorial](https://id0-rsa.pub/)
 
-### Main topics
-
-* **PGP:** PGP stands for [*Pretty Good Privacy*](https://en.wikipedia.org/wiki/Pretty_Good_Privacy). Is a program used to facilitate encrypt and decrypt your mail. PGP "has proven itself quite capable of resisting even the most sophisticated forms of analysis" ([PGP faqs](http://www.faqs.org/faqs/pgp-faq/part1/))
+### Main topics (Tags)
 
 * **RSA:** RSA stands for [*Rivest-Shamir-Adleman*](https://en.wikipedia.org/wiki/RSA_(cryptosystem)). Is a widely used public-key cryptosystem "based on the practical difficulty of factoring the product of two large prime numbers" ([RSA cryptosystem](https://en.wikipedia.org/wiki/RSA_(cryptosystem)))
 
+* **PublicKey-Crypto:**
+
 * **Hashing:** A [*hash function*](https://en.wikipedia.org/wiki/Hash_function) maps data of arbitrary size to data of fixed size. An [ideal hash function](https://en.wikipedia.org/wiki/Cryptographic_hash_function) maps randomly, avoid colissions and is impossible to invert.
 
-### Scripts
+* **Symmetric-Crypto:**
+
+* **Classical-Crypto:**
+
+* **Passwords:**
+
+* **AES:**
+
+* **Tutorial:**
+
+* **Bitcoin:**
+
+* **PGP:** PGP stands for [*Pretty Good Privacy*](https://en.wikipedia.org/wiki/Pretty_Good_Privacy). Is a program used to facilitate encrypt and decrypt your mail. PGP "has proven itself quite capable of resisting even the most sophisticated forms of analysis" ([PGP faqs](http://www.faqs.org/faqs/pgp-faq/part1/))
+
+* **ECC:**
+
+* **Factoring:**
+
+* **OpenSSL:**
+
+* **PRNG:**
+
+### Solved Problems
 
 * **Hello PGP** Use PGP programatically. Recover the message encrypted with a single English word.
 
@@ -61,3 +83,25 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 * **Bad Entropy** It's easy to generate bad symmetric keys
 
 * **Caesar** Should probably stick to the salad
+
+### Unsolved Problems
+
+* **Playfair** 13
+
+* **Bleichenbacher's CCA2 on RSA** 14
+
+* **CRIMEs against TLS** 20
+
+* **CBC Padding Attack** 22
+
+* **Breaking PDF Passwords** 29
+
+* **Backdoored PRNG** 31
+
+* **Vigenère** 33
+
+* **Rail Fence** 34
+
+* **Vigenère + Rail Fence** 35
+
+* **Not So Safe Primes** 37
