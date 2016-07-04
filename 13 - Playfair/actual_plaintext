@@ -1,0 +1,38 @@
+the first sixty characters is the solution 
+
+i thank the acm for this award
+i can't help but feel that i am receiving this honor for timing and serendipity as much as technical merit 
+unix swept into popularity with an industry wide change from central mainframes to autonomous minis
+i suspect that daniel bobrow would be here instead of me if he could not afford a pdp and and had to settle for a pdp
+moreover the current state of unix is the result of a large number of people
+
+there is an old age
+dance with the one that brought you which means that i should talk about unix
+i have not worked on maintream unix in many years yet i continue to get undeserved credit for the work of others
+therefore i am not going to talk about unix but i want to thank everyone who has contributed 
+
+that brings me to dennis ritchie
+our collaboration has been a thing of beauty
+in the ten years that we have worked together i can recall only one case of miscoordination of work 
+on that occasion i discovered that we both had written the same line assembly language program
+i compared the sources and was astounded to find that they matched character for character
+the result of our work together as been far greater than the work that we each contributed
+
+
+in college before videogames we would amuse our selves by posing programming exercises
+one og the favorites was to write the shortest self reproducing program
+since this is an exercise divorced from reality the usual vehicle was fortran
+actually fortran was the language of choice for the same reason that three legged races are popular
+
+more precisely stated the problem is to write a source program that when compiled and executed will produce as output an exact copy of its source
+if you have never done this i urge you to try it on your own
+the discovery of how to do it is a revelation that far surpasess any benefit obtained by being told how to do it
+the part about shortest was iust an incentive to demonstrate skill and determine a winner
+
+figure shows a self reproducing program in the c programming language
+the purist will note that the program is not precisely a self reproducing program but will produce a self reproducing program
+this entry is much too large to win a prize but it demonstrates the technique and has two important properties that i need to complete my story
+this program can be easily written by another program
+this program can contain an arbitrary amount of excess baggage that will be reproduced along with the main algorithm
+in the example even the comment is reproduced
+X
