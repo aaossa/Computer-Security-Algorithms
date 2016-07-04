@@ -56,6 +56,8 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 
 * **Monoalphabetic Cipher** Monoalphabetic ciphers leak information. Can you recover it?
 
+* **Playfair** This bigram cipher is a bit trickier...
+
 * **Factoring RSA With CRT Optimization** Recover a RSA private key when an optimization goes wrong
 
 * **Rainbow Table Hash Chain** Can you use a rainbow table to recover a password?
@@ -85,8 +87,6 @@ Problems related to computer security. Algorithms written in Python. [Follow the
 * **Caesar** Should probably stick to the salad
 
 ### Unsolved Problems
-
-* **Playfair** 13
 
 * **Bleichenbacher's CCA2 on RSA** 14
 
